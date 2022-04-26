@@ -2,10 +2,10 @@ public class CustomerController {
 
     private String firstName;
     private String lastName;
-    private String age;
+    private int age;
     private String address;
 
-    public CustomerController(String firstName, String lastName, String age, String address) {
+    public CustomerController(String firstName, String lastName, int age, String address) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
@@ -31,11 +31,11 @@ public class CustomerController {
         this.lastName = lastName;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
